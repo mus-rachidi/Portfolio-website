@@ -34,11 +34,9 @@ You can view a live demo of this portfolio at [YourDemoURLHere](https://example.
 
 ## Installation
 
-1. Clone this repository: `git clone https://github.com/yourusername/project-portfolio.git`
-2. Navigate to the project directory: `cd project-portfolio`
+1. Clone this repository: `git clone https://github.com/yourusername/portfolio-website.git`
+2. Navigate to the project directory: `cd portfolio-website`
 3. Install dependencies for the frontend and backend:
    ```bash
-   cd client
-   npm install
-   cd ../server
-   npm install
+   cd frontend
+   make up
