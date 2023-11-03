@@ -12,14 +12,22 @@ const Navbar = () => {
         </div>
         
         <div className="">
-          <NavLink to='/' className="link me-5">Home</NavLink>
-          <NavLink to='/about' className="link me-5">About</NavLink>
-          <NavLink to='/portfolio' className="link">Portfolio</NavLink>
+          <NavLink to='/' className="btn btn-outline-primary link me-5">Home</NavLink>
+          <NavLink to='/about' className="btn btn-outline-primary link me-5">About</NavLink>
+          <NavLink to='/project' className="btn btn-outline-primary link me-5">project</NavLink>
+          <NavLink to='/portfolio' className=" btn btn-outline-primary link">Portfolio</NavLink>
         </div>
-        
+          <div>
+          <button type="button" class="btn btn-light">Light</button>
+          <button type="button" class="btn btn-dark link me-5">Dark</button>     
+          </div>
+
+
         <div>
-          <NavLink to='/contact' className="link">
-            <button className='mt-5 m-lg-0 btn btn-primary custom-btn fw-bold'>Contact me</button>
+          <NavLink to='/contact' className="link">          
+
+          <button type="button" class="btn btn-outline-primary">contact me</button>
+
           </NavLink>
         </div>
 

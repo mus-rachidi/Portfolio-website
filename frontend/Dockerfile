@@ -13,6 +13,8 @@ RUN npm install react-router-dom
 RUN npm install react-bootstrap-icons --save
 RUN npm install @lottiefiles/react-lottie-player
 RUN npm install @emailjs/browser
+RUN npm install --save react-bootstrap
+
 
 # Copy the rest of your app's source code to the container
 COPY . .
