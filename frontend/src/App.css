@@ -1,38 +1,62 @@
+/* Reset some default styles for consistency across browsers */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the overall layout */
 .App {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  padding: 20px;
+}
+
+/* Style the header */
+header {
+  background-color: #333;
+  color: #fff;
   text-align: center;
+  padding: 20px 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header h1 {
+  font-size: 32px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header nav ul {
+  list-style: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+header nav ul li {
+  display: inline;
+  margin: 0 20px;
 }
 
-.App-link {
-  color: #61dafb;
+header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Style the sections */
+section {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+}
+
+section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
 }

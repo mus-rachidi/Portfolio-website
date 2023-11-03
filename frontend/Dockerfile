@@ -9,12 +9,16 @@ COPY package*.json ./
 
 # Install dependencies
 RUN npm install
+RUN npm install react-router-dom
+RUN npm install react-bootstrap-icons --save
+RUN npm install @lottiefiles/react-lottie-player
+RUN npm install @emailjs/browser
 
 # Copy the rest of your app's source code to the container
 COPY . .
 
-# Build your React app (if necessary)
-RUN npm run build
+# # Build your React app (if necessary)
+# RUN npm run build
 
 # Expose the port your React app is running on
 EXPOSE 3000
